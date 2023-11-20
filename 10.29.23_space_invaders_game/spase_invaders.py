@@ -117,13 +117,13 @@ class Manager:
         self.slowing = 0
         self.screen = pygame.display.set_mode((self.width, self.height))
         self.images = images = {
-            'spacecraft': 'C:\\Users\\User\\Desktop\\images\\spacecraft.png',
-            'alien': 'C:\\Users\\User\\Desktop\\images\\alien.png',
-            'space': 'C:\\Users\\User\\Desktop\\images\\space.jpg',
-            'rocket': 'C:\\Users\\User\\Desktop\\images\\rocket.png',
-            'pitchfork': 'C:\\Users\\User\\Desktop\\images\\pitchfork2.ico',
-            'skull': 'C:\\Users\\User\\Desktop\\images\\skull.png',
-            'knife': 'C:\\Users\\User\\Desktop\\images\\knife.png'
+            'spacecraft': 'images//spacecraft.png',
+            'alien': 'images//alien.png',
+            'space': 'images//space.jpg',
+            'rocket': 'images//rocket.png',
+            'pitchfork': 'images//pitchfork2.ico',
+            'skull': 'images//skull.png',
+            'knife': 'images//knife.png'
         }
 
         self.spacecraft = SpaceCraft(images['spacecraft'], (700, 640), images['skull'])
