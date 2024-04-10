@@ -1,0 +1,85 @@
+:root {
+--primary:#d81e5b;
+--secondary: #8c38ff;
+--dark: #131a26;
+--background: #333;
+--light: #eee;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira sans', sans-serif;
+}
+
+body {
+  background-color: var(--light);
+}
+
+.App {
+display: flex;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+}
+
+.calculator {
+  
+  padding: 10px;
+  width: 250px;
+  background-color: var(--background);
+  border-radius: None;
+  overflow: hidden;
+  outline:10px solid #1e50d8;
+  
+}
+
+.display {
+  
+  padding: 5px;
+  text-align: right;
+  background-color: #1ed881;
+  border-radius: 10px;
+  color: var(--light);
+  font-size: 30px;
+  font-weight: 30;
+
+}
+
+.display span {
+  font-size: 14px;
+  color: #888;
+}
+
+button {
+  appearance: none;
+  border-radius: 111px;
+  color: #FFF;
+  font-size: 20px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  opacity:0.7;
+}
+
+
+.digits {
+  display: flex;
+  flex-wrap:wrap;
+  & :nth-child(19){
+    flex: 0 0 50%;
+  } 
+}
+
+.digits button {
+  flex: 0 0 25%;
+  
+  background-color: #d81e5b;
+}
+

@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "src",
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ],
+    "types": [
+      "react",
+      "react-dom"
+    ],
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmit": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "config",
+    "scripts",
+    "webpack.config.js",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.spec.ts",
+    "**/*.spec.tsx"
+  ]
+}

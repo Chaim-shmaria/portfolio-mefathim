@@ -1,0 +1,69 @@
+{
+  "משתמשים": {
+    "first_name": { "header": "שם פרטי", "width": 1 ,"sorted": true},
+    "last_name": { "header": "שם משפחה", "width": 1 ,"sorted": true},
+    "phone_number": { "header": "נייד", "width": 1 ,"sorted": true},
+    "email": { "header": "מייל", "width": 1 ,"sorted": true},
+    "role": { "header": "תפקיד", "width": 1 ,"sorted": true},
+    "defaultSearch": "last_name"
+  },
+  "מלאי": {
+    "id": { "header": "מק''ט", "width": 1 ,"sorted": true },
+    "name": { "header": "שם", "width": 1 ,"sorted": true },
+    "category": { "header": "קטגוריה", "width": 1 ,"sorted": true },
+    "quantity": { "header": "כמות במלאי", "width": 1 ,"sorted": true },
+    "size_type": { "header": "סוג יחידה", "width": 1 ,"sorted": true },
+    "order_threshold": { "header": "סף מינימום", "width": 1 ,"sorted": true },
+    "defaultSearch": "name"
+  },
+
+  "ספקים": {
+    "business_number": { "header": ".ח.פ", "width": 1 ,"sorted": true },
+    "supplier_name": { "header": "שם הספק", "width": 1 ,"sorted": true },
+    "contact_name": {"header": "שם איש קשר", "width": 1 ,"sorted": true},
+    "address": { "header": "כתובת", "width": 1 ,"sorted": true },
+    "email": { "header": "מייל איש קשר", "width": 2 ,"sorted": false },
+    "phone_number": { "header": "נייד איש קשר", "width": 1 ,"sorted": false },
+    "defaultSearch": "supplier_name"
+  },
+
+  "הזמנות": {
+    "supplier_name": { "header": "שם הספק", "width": 1 ,"sorted": true },
+    "id": { "header": "מספר הזמנה", "width": 1 ,"sorted": true },
+    "date_ordered": { "header": "תאריך הזמנה", "width": 1 ,"sorted": true },
+    "item_count": { "header": "מספר פריטים", "width": 1 ,"sorted": true },
+    "total_amount": { "header": "סכום משוערך", "width": 1 ,"sorted": true },
+    "status": { "header": "סטטוס", "width": 1 ,"sorted": true },
+    "defaultSearch": "status"
+  },
+
+  "מוצרים": {
+    "mkt": { "header": "מק''ט", "width": 1 ,"sorted": true},
+    "name": { "header": "שם המוצר", "width": 1,"sorted": true },
+    "inventory_name": { "header": "שם מלאי", "width": 1 ,"sorted": true},
+    "size_and_type": { "header": "גודל יחידה", "width": 1,"sorted": true },
+    "n_unit": { "header": "כמות באריזה", "width": 1,"sorted": false},
+    "category": { "header": "קטגוריה", "width": 1 ,"sorted": true},
+    "defaultSearch": "name"
+  },
+
+  "הזמנה חדשה": {
+    "mkt": { "header": "מק''ט", "width": 1 },
+    "name": { "header": "שם המוצר", "width": 1 },
+    "supplier_name": { "header": "שם הספק", "width": 1 },
+    "size_type": { "header": "משקל/נפח", "width": 1 },
+    "amount": { "header": "כמות", "width": 1 },
+    "sum": { "header": "סכום", "width": 1 },
+    "defaultSearch": "name"
+  },
+
+  "ערוך הזמנה חדשה": {
+    "mkt": { "header": "מק''ט", "width": 1 },
+    "name": { "header": "שם המוצר", "width": 1 },
+    "supplier_name": { "header": "שם הספק", "width": 1 },
+    "size_type": { "header": "משקל/נפח", "width": 1 },
+    "amount": { "header": "כמות", "width": 1 },
+    "sum": { "header": "סכום", "width": 1 },
+    "status": { "header": "סטטוס", "width": 1 }
+  }
+}
